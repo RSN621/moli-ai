@@ -11,7 +11,9 @@ from dotenv import load_dotenv
 
 # 加载环境变量
 load_dotenv()
-
+# 检查环境变量是否被正确加载
+print(f"API_KEY: {os.getenv('MARSCODE_API_KEY')}")
+print(f"MODEL_EP: {os.getenv('MARSCODE_MODEL_EP')}")
 # 从环境变量读取配置
 API_KEY = os.getenv('MARSCODE_API_KEY', '')
 MODEL_EP = os.getenv('MARSCODE_MODEL_EP', '')
