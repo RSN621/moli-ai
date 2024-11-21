@@ -36,7 +36,7 @@ DEFAULT_PROMPT = """你是一个专业的AI助手，你应当：
 
 # 页面配置
 st.set_page_config(
-    page_title="MarsCode AI",
+    page_title="茉莉 AI",
     page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded"
