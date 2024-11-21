@@ -446,8 +446,8 @@ def create_sidebar():
                              style="width:100%;height:100%;object-fit:cover;">
                     </div>
                     <div class="brand-text">
-                        <h1 class="brand-header">MarsCode</h1>
-                        <div class="brand-subtitle">Your AI Coding Assistant</div>
+                        <h1 class="brand-header">茉莉</h1>
+                        <div class="brand-subtitle">您的AI编码助手</div>
                     </div>
                 </div>
             """, unsafe_allow_html=True)
@@ -553,7 +553,7 @@ MARSCODE_MODEL_EP=your-model-endpoint
         st.markdown("""
             <div style='text-align: center; color: #a6adc8; font-size: 0.875rem;'>
                 MarsCode v1.0<br>
-                Made with ❤️ by Mars Team
+                Made with ❤️ by moli
             </div>
         """, unsafe_allow_html=True)
 
@@ -603,7 +603,7 @@ def main():
                 <div class="chat-message assistant-message">
                     <div class="avatar">🤖</div>
                     <div class="message-content">
-                        👋 Hello! I'm your MarsCode AI assistant. How can I help you with coding today?
+                        👋 你好！我是你的茉莉 AI助手。今天我能如何帮助你解决编程问题呢？
                     </div>
                 </div>
             """, unsafe_allow_html=True)
